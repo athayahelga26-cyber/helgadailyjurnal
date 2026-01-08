@@ -5,18 +5,41 @@ body {
   color: #37352f;
 }
 
+/* Cover */
+.cover {
+  height: 220px;
+  background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Page */
 .page {
   max-width: 800px;
-  margin: 50px auto;
+  margin: -60px auto 50px;
   background: white;
   padding: 60px;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+/* Icon */
+.icon {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 16px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -90px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h1 {
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 .subtitle {
