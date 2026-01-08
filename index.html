@@ -1,29 +1,70 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Helga Daily Jurnal | Spider-Man</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Set Up with Git & GitHub</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>🕷️ Helga Daily Jurnal</h1>
-    <p>With Great Power Comes Great Responsibility</p>
-</header>
+<div class="page">
+  <h1>Set Up with Git and GitHub</h1>
+  <p class="subtitle">Daily Journal · Helga</p>
 
-<main>
-    <section class="card">
-        <h2>Catatan Hari Ini</h2>
-        <p id="jurnal">Spider-Man mengajarkan tanggung jawab.</p>
-        <button onclick="ubahJurnal()">Ubah Catatan</button>
-    </section>
-</main>
+  <hr>
 
-<footer>
-    © 2026 HelgaDailyJurnal
-</footer>
+  <h2>📌 Introduction</h2>
+  <p>
+    Git is a version control system used to track changes in source code,
+    while GitHub is a platform to host Git repositories online.
+  </p>
 
-<script src="script.js"></script>
+  <h2>🧰 Tools Needed</h2>
+  <ul>
+    <li>Git</li>
+    <li>GitHub Account</li>
+    <li>Code Editor (VS Code)</li>
+    <li>Internet Connection</li>
+  </ul>
+
+  <h2>⚙️ Step 1: Install Git</h2>
+  <ol>
+    <li>Visit <a href="https://git-scm.com" target="_blank">https://git-scm.com</a></li>
+    <li>Download Git for your OS</li>
+    <li>Install using default settings</li>
+  </ol>
+
+  <h2>🔐 Step 2: Configure Git</h2>
+  <pre>
+git config --global user.name "Your Name"
+git config --global user.email "youremail@gmail.com"
+  </pre>
+
+  <h2>🌐 Step 3: Create GitHub Repository</h2>
+  <ol>
+    <li>Login to GitHub</li>
+    <li>Click <b>New Repository</b></li>
+    <li>Enter repository name</li>
+    <li>Click Create</li>
+  </ol>
+
+  <h2>🚀 Step 4: Push Project to GitHub</h2>
+  <pre>
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/username/repo.git
+git push -u origin main
+  </pre>
+
+  <h2>✅ Conclusion</h2>
+  <p>
+    By following these steps, you can successfully use Git and GitHub
+    for managing and hosting your projects.
+  </p>
+
+</div>
+
 </body>
 </html>
