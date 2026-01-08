@@ -1,14 +1,16 @@
 body {
   margin: 0;
-  background: #f7f7f5;
+  background: #0b0b0b;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
-  color: #37352f;
+  color: #eaeaea;
 }
 
-/* Cover */
+/* Cover Spider-Man */
 .cover {
-  height: 220px;
-  background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97");
+  height: 230px;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("https://images.unsplash.com/photo-1635805737707-575885ab0820");
   background-size: cover;
   background-position: center;
 }
@@ -16,65 +18,63 @@ body {
 /* Page */
 .page {
   max-width: 800px;
-  margin: -60px auto 50px;
-  background: white;
+  margin: -70px auto 50px;
+  background: #111;
   padding: 60px;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  border-radius: 14px;
+  box-shadow: 0 0 30px rgba(230,36,41,0.4);
 }
 
 /* Icon */
 .icon {
-  width: 80px;
-  height: 80px;
-  background: white;
-  border-radius: 16px;
-  font-size: 40px;
+  width: 90px;
+  height: 90px;
+  background: #e62429;
+  color: white;
+  border-radius: 50%;
+  font-size: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -90px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: -110px;
+  box-shadow: 0 0 0 6px black;
 }
 
 h1 {
+  color: #e62429;
   font-size: 40px;
   margin-top: 20px;
 }
 
 .subtitle {
-  color: #787774;
+  color: #aaa;
   font-size: 14px;
-  margin-bottom: 30px;
 }
 
 h2 {
   margin-top: 40px;
+  color: #ff3b3f;
 }
 
 p, li {
   line-height: 1.7;
 }
 
-ul, ol {
-  padding-left: 20px;
-}
-
 pre {
-  background: #f1f1ef;
+  background: black;
+  color: #e62429;
   padding: 15px;
   border-radius: 8px;
   overflow-x: auto;
-  font-size: 14px;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #e3e3e0;
+  border-top: 1px solid #333;
   margin: 30px 0;
 }
 
 a {
-  color: #0b6efd;
+  color: #e62429;
   text-decoration: none;
 }
